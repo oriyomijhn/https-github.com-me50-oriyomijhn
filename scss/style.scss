@@ -1,0 +1,56 @@
+$color: blue;
+
+th {
+    font-size: 100px;
+    background-color: $color; 
+     
+}                        
+
+table {
+    padding: 100px;           
+    background-color: $color;                                 
+}            
+             
+ 
+div{
+    
+  font-size: 15px;  
+    
+    p{
+       color: #c5d6db; 
+        
+    }  
+    
+    ul{     
+        
+      color: #161913;      
+    }   
+    
+}
+
+
+%message {
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+
+.error{
+   @extend %message;
+   background-color: red;   
+}
+
+.success{   
+   @extend %message;   
+   background-color: green; 
+}    
+   
+   
+
+                               
