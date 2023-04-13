@@ -1,4 +1,4 @@
-# https-github.com-me50-oriyomijhn
+
 index.html - This is the index.html file containing the write-up structure for my web page. It is the home page also. The project (project0) is 
 a Travel & Tour agency called Davolee Travvel & Tours. 
 
